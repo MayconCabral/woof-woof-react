@@ -1,16 +1,9 @@
-import { useEffect, useState } from "react";
-import allBreeds from "../API/allBreeds";
+import { useContext } from "react";
+import WoofWoofContext from "../context/WoofWoofContext";
+
 
 function DogsBreed(){
-    const [breedsObj, setBreedsObj] = useState({}); 
-    const [selectBreed, setSelectBreed] = useState('');
-
-    useEffect(() => {
-      allBreeds().then((data) => {
-          setBreedsObj(data); 
-      }) 
-      
-    }, [])
+   const { setSelectBreed, breedsObj } = useContext(WoofWoofContext);
 
     const handleClick = ({target}) => {
         setSelectBreed(target.value)
