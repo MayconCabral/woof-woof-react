@@ -1,40 +1,33 @@
-import { useContext } from "react";
+import { useContext, useEffect, useState } from "react";
 import WoofWoofContext from "../context/WoofWoofContext";
+import allBreeds from "../API/allBreeds";
+
+import arrayBreeds from "../helper/arrayBreeds";
 
 
 function DogsBreed(){
-   const { setSelectBreed, breedsObj } = useContext(WoofWoofContext);
+   const { setSelectBreed } = useContext(WoofWoofContext);
+   const [breedsObj, setBreedsObj] = useState({});
+
+   useEffect(() => {
+    allBreeds().then((data) => {
+        setBreedsObj(data); 
+    })         
+  }, [])
 
     const handleClick = ({target}) => {
         setSelectBreed(target.value)
     }
 
-    const breeds = Object.entries(breedsObj);
-
+    const breeds = arrayBreeds(breedsObj).sort();
+    
     return (        
         <header>
             <select onChange={ handleClick }>
-                { breeds &&
-                breeds.map((breed) => (                    
-                    !breed[1].length >= 1
-                    ?
-                    <option 
-                    key={breed[0]} 
-                    value={breed[0]}
-                    >
-                        {breed[0]}
-                    </option>
-                    :                    
-                    breed[1].map((subBreed) => (
-                        <option 
-                        key={subBreed}
-                        value={`${breed[0]}/${subBreed}`}
-                        >
-                            {`${breed[0]} ${subBreed}`}
-
-                        </option>
-                    ))
-                ))}
+                { breeds.map((breed) => {
+                    return <option key={breed} value={breed}>{breed}</option>
+                })
+                }
             </select>
         </header>
         
