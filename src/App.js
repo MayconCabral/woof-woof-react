@@ -1,18 +1,18 @@
 import './App.css';
 import DogsBreed from './components/DogsBreed';
 import DogsPicture from './components/DogsPicture';
-import WoofWoofProvider from './context/WoofWoofProvider';
+import Provider from './context/Provider';
 
 
 
 function App() {
   return (
-    <WoofWoofProvider>
+    <Provider>
       <main>
       <DogsBreed />
       <DogsPicture />
       </main>
-    </WoofWoofProvider>  
+    </Provider>  
   );
 }
 

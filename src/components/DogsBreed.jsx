@@ -1,12 +1,12 @@
 import { useContext, useEffect, useState } from "react";
-import WoofWoofContext from "../context/WoofWoofContext";
+import Context from "../context/Context";
 import allBreeds from "../API/allBreeds";
 
 import arrayBreeds from "../helper/arrayBreeds";
 
 
 function DogsBreed(){
-   const { setSelectBreed } = useContext(WoofWoofContext);
+   const { setSelectBreed } = useContext(Context);
    const [breedsObj, setBreedsObj] = useState({});
 
    useEffect(() => {

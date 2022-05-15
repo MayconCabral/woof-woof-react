@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import propTypes from 'prop-types';
 
-import WoofWoofContext from './WoofWoofContext';
+import Context from './Context';
 
 
-function WoofWoofProvider({children}){
+function Provider({children}){
     const [selectBreed, setSelectBreed] = useState('');   
 
     const values = {
@@ -13,14 +13,14 @@ function WoofWoofProvider({children}){
     };
 
     return (
-        <WoofWoofContext.Provider value={values}>
+        <Context.Provider value={values}>
             {children}
-        </WoofWoofContext.Provider>
+        </Context.Provider>
     )
 }
 
-WoofWoofProvider.propTypes = {
+Provider.propTypes = {
     children: propTypes.any,
   }.isRequired;
 
-export default WoofWoofProvider;
+export default Provider;
