@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import Context from "../context/Context";
-import allBreeds from "../API/allBreeds";
+import { allBreeds } from "../API";
 
 import arrayBreeds from "../helper/arrayBreeds";
 
