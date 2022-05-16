@@ -18,15 +18,17 @@ function DogsPicture() {
             setFetchOn(false);
         };  
         setFetchOn(true)
-   }, [URL])
+   }, [URL, fetchOn])
    
     
     return (
-        <section>
-        { dogsImg.slice(0, 10).map((img) => (
-            <img src={img} key={img} alt={ `Many dog's ${URL}`}></img>
+        <ul>
+        { dogsImg.slice(0, 12).map((img) => (
+           <li> 
+             <img src={img} key={img} alt={ `Exemple of ${URL} breeds`}></img>  
+           </li> 
         ))}
-        </section>
+        </ul>
     )
 };
 

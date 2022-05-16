@@ -1,4 +1,40 @@
-main {
-  display:grid;  
-  grid-template-columns: 20% 80%;
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-indent: 0;
 }
+
+main {
+  display: grid;  
+  grid-template-columns: 20% 80%;
+  
+}
+
+header {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+}
+ul {     
+  overflow: hidden; 
+  display: flex;
+  flex-wrap: wrap;
+  grid-column: 2/ 4;
+  grid-row: 2 / 4;
+}
+
+li {
+  height: 30vh; 
+  width: 50%; 
+  flex-grow: 1;
+}
+
+img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+
+
