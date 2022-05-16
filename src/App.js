@@ -10,7 +10,9 @@ function App() {
     <Provider>
       <main>
       <DogsBreed />
-      <DogsPicture />
+      <div className='dogImages'>
+          <DogsPicture />
+      </div>      
       </main>
     </Provider>  
   );

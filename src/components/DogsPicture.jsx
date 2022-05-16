@@ -1,4 +1,5 @@
 import { useContext, useState, useEffect } from 'react';
+import { PhotoAlbum } from 'react-photo-album';
 import Context from '../context/Context';
 
 import { dogImages } from '../API';
@@ -19,16 +20,16 @@ function DogsPicture() {
         };  
         setFetchOn(true)
    }, [URL, fetchOn])
-   
+
+   const images = dogsImg
+            .map((imag) => ({ src: imag, width: 200, height:200, alt:`Exemples of ${URL} breed` }))
+            .slice(0, 15)
     
     return (
-        <ul>
-        { dogsImg.slice(0, 12).map((img) => (
-           <li> 
-             <img src={img} key={img} alt={ `Exemple of ${URL} breeds`}></img>  
-           </li> 
-        ))}
-        </ul>
+        <section>
+           <PhotoAlbum layout='masonry' photos={images} spacing={2} columns={5} />   
+        </section>
+         
     )
 };
 
