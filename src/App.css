@@ -4,6 +4,10 @@
   list-style-type: none;
   text-indent: 0;
 }
+body {
+  width: 100vw;
+  height: 100vh;
+}
 
 main {
   display: grid;  
@@ -14,9 +18,8 @@ main {
 header { 
   grid-column: 1 / 2;
 }
-.dogImages{
-  margin: 2% 0;
-  width: 75vw;  
- 
+.dogImages{  
+  height: 90%; 
   grid-column: 2 / 3;
 }
+
