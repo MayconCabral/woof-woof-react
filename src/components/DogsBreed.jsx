@@ -1,10 +1,17 @@
 import { useContext, useEffect, useState } from "react";
 import {Select, MenuItem, FormControl, InputLabel} from '@mui/material';
+import PetsIcon from '@mui/icons-material/Pets';
+import { styled } from '@mui/material/styles';
 import Context from "../context/Context";
 import { allBreeds } from "../API";
 
 import arrayBreeds from "../helper/arrayBreeds";
 
+const MuiMenuItem = styled(MenuItem)(({ theme }) => ({
+    '& .MuiSvgIcon-root ': {
+      marginRight: theme.spacing(1),      
+    },
+  }));
 
 function DogsBreed(){
    const { setSelectBreed } = useContext(Context);
@@ -31,10 +38,13 @@ function DogsBreed(){
                         variant="outlined" 
                         label="Breed" 
                         onChange={ handleClick } 
-                        MenuProps={{ PaperProps: { sx: { maxHeight: 550 } } }}
+                        MenuProps={{ PaperProps: { sx: { maxHeight: 550 } } }} // controlling the selected box options size
                     >
                             { breeds.map((breed) => {
-                                return <MenuItem key={breed} value={breed}>{breed}</MenuItem>
+                                return <MuiMenuItem key={breed} value={breed}>
+                                            <PetsIcon color="primary" sx={{ mr: '0.3rem'}}/>
+                                            {breed}
+                                        </MuiMenuItem>
                             })
                             }
                     </Select>
