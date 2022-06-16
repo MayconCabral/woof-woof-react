@@ -9,10 +9,8 @@ function App() {
   return (
     <Provider>
       <main>
-      <DogsBreed />
-      <div className='dogImages'>
-          <DogsPicture />
-      </div>      
+      <DogsBreed />          
+      <DogsPicture />             
       </main>
     </Provider>  
   );

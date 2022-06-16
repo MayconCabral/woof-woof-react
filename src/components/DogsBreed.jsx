@@ -1,4 +1,5 @@
 import { useContext, useEffect, useState } from "react";
+import {Select, MenuItem, FormControl, InputLabel} from '@mui/material';
 import Context from "../context/Context";
 import { allBreeds } from "../API";
 
@@ -23,14 +24,22 @@ function DogsBreed(){
     
     return (        
         <header>
-            <select onChange={ handleClick }>
-                { breeds.map((breed) => {
-                    return <option key={breed} value={breed}>{breed}</option>
-                })
-                }
-            </select>
-        </header>
-        
+            <FormControl sx={{ m: 3, minWidth: 200 }} size="small" >
+                <InputLabel id="select-breed">Breed</InputLabel>
+                    <Select 
+                        labelId="select-breed" 
+                        variant="outlined" 
+                        label="Breed" 
+                        onChange={ handleClick } 
+                        MenuProps={{ PaperProps: { sx: { maxHeight: 550 } } }}
+                    >
+                            { breeds.map((breed) => {
+                                return <MenuItem key={breed} value={breed}>{breed}</MenuItem>
+                            })
+                            }
+                    </Select>
+            </FormControl>            
+        </header>        
     )
 }
 
