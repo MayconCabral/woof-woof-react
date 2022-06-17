@@ -7,9 +7,63 @@
 }
 body {
   width: 100vw;
-  height: 100vh;
+  height: 100vh;  
   background: rgb(172,214,255);
-background: radial-gradient(circle, rgba(172,214,255,1) 0%, rgba(255,255,255,1) 100%);
+  background: radial-gradient(circle, rgba(172,214,255,1) 0%, rgba(255,255,255,1) 100%);
 }
 
+.containerPaw {
+  position: absolute;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.paw_1 { 
+  position: absolute;
+  top: 10px;
+  width: 8rem; 
+  transform: rotate(-25deg);
+}
+
+.paw_2 {  
+  position: absolute;
+  top: 130px;
+  left: 150px;
+  width: 8rem; 
+  transform: rotate(-25deg);
+}
+
+.paw_3 {  
+  position: absolute;
+  top: 300px;
+  left: 50px;
+  width: 8rem; 
+  transform: rotate(-25deg);
+}
+
+.paw_4 { 
+  position: absolute;
+  top: 400px;
+  left: 250px;
+  width: 8rem; 
+  transform: rotate(-25deg);
+}
+
+.paw_5 { 
+  position: absolute;
+  top: 600px;
+  left: 150px;
+  width: 8rem; 
+  transform: rotate(-25deg);
+}
+
+.paw_6 { 
+  position: absolute;
+  top: 720px;
+  left: 380px;
+  width: 8rem; 
+  transform: rotate(-25deg);
+}
 
