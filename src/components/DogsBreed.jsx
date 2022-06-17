@@ -30,7 +30,7 @@ function DogsBreed(){
     const breeds = arrayBreeds(breedsObj).sort();
     
     return (        
-        <header>
+        <header className="absolute">
             <FormControl sx={{ m: 3, minWidth: 200 }} size="small" >
                 <InputLabel id="select-breed">Breed</InputLabel>
                     <Select 
