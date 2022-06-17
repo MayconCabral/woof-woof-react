@@ -37,7 +37,7 @@ function DogsPicture() {
                   
     return (
       <ThemeProvider theme={theme}>
-            <Box sx={{             
+            { dogsImg.length > 0 && <Box sx={{             
             height: '80vh',
             margin: 5,           
             gap: 0.5,           
@@ -60,7 +60,7 @@ function DogsPicture() {
                 />
             </ImageListItem>
             ))}
-        </Box>
+        </Box> }
       </ThemeProvider>
       
     );
