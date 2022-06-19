@@ -1,7 +1,7 @@
 {
   "name": "woof-woof-react",
   "version": "0.1.0",
-  "https":"https://MayconCabral.github.io/woof-woof-react",
+  "https":"https://mayconcabral.github.io/woof-woof-react/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
