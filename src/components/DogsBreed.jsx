@@ -14,7 +14,7 @@ const MuiMenuItem = styled(MenuItem)(({ theme }) => ({
   }));
 
 function DogsBreed(){
-   const { setSelectBreed } = useContext(Context);
+   const { setSelectBreed, selectBreed } = useContext(Context);
    const [breedsObj, setBreedsObj] = useState({});
 
    useEffect(() => {
@@ -38,6 +38,7 @@ function DogsBreed(){
                         variant="outlined" 
                         label="Breed" 
                         onChange={ handleClick } 
+                        value={ selectBreed || '' }
                         MenuProps={{ PaperProps: { sx: { maxHeight: 550 } } }} // controlling the selected box options size
                     >
                             { breeds.map((breed) => {

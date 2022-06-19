@@ -38,8 +38,7 @@ function DogsPicture() {
     return (
       <ThemeProvider theme={theme}>
             { dogsImg.length > 0 && <Box sx={{             
-            height: '80vh',
-            margin: 5,           
+            height: '80vh',                       
             gap: 0.5,           
             overflowY: 'scroll',                             
             display: "grid",            
