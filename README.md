@@ -12,13 +12,13 @@
 ## Technologies
 <br />
 The following technologies were used in this aplication: <br />
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?logo=css3&logoColor=white&style=for-the-badge)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?logo=html5&logoColor=white&style=for-the-badge)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?logo=javascript&logoColor=%23F7DF1E&style=for-the-badge)
-![Green Sock](https://img.shields.io/badge/green%20sock-88CE02?logo=greensock&logoColor=white&style=for-the-badge)
-![MUI ](https://img.shields.io/badge/MUI-%230081CB.svg?logo=material-ui&logoColor=white&style=for-the-badge)
-![React](https://img.shields.io/badge/react-%2320232a.svg?logo=react&logoColor=%2361DAFB&style=for-the-badge)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?logo=git&logoColor=white&style=for-the-badge)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?logo=css3&logoColor=white&style=for-the-badge) 
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?logo=html5&logoColor=white&style=for-the-badge) 
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?logo=javascript&logoColor=%23F7DF1E&style=for-the-badge) 
+![Green Sock](https://img.shields.io/badge/green%20sock-88CE02?logo=greensock&logoColor=white&style=for-the-badge) 
+![MUI ](https://img.shields.io/badge/MUI-%230081CB.svg?logo=material-ui&logoColor=white&style=for-the-badge) 
+![React](https://img.shields.io/badge/react-%2320232a.svg?logo=react&logoColor=%2361DAFB&style=for-the-badge) 
+![Git](https://img.shields.io/badge/git-%23F05033.svg?logo=git&logoColor=white&style=for-the-badge) 
 <br />
 <br />
 
