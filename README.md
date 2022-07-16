@@ -21,5 +21,5 @@ The following technologies were used in this aplication:<br />
 <br />
 [Maycon Cabral](https://github.com/MayconCabral)
 <br/>
-[![Gmail Badge](https://img.shields.io/badge/-povei@outlook.com-c14438?style=flat-square&logo=OutLook&logoColor=white&link=mailto:povei@outlook.com)](mailto:povei@outlook.com)
+[![Gmail Badge](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white&link=mailto:povei@outlook.com)](mailto:povei@outlook.com)
 
