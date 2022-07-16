@@ -19,7 +19,9 @@ The following technologies were used in this aplication:<br />
 
 ## Author
 <br />
+
 ![Maycon Cabral](https://github.com/MayconCabral)
+
 <br/>
 <img alt="Outlook" src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white"/>
 
