@@ -24,8 +24,6 @@ The following technologies were used in this aplication:
 <br />
 
 ## Author
-<a href="https://github.com/MayconCabral"></a>
-
-<br/>
-<a href="mailto:povei@outlook.com"><img alt="Outlook" src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white"/></a>
+<a href="https://github.com/MayconCabral">Me! 🤓</a> or mail 
+<a href="mailto:povei@outlook.com">M📧!</a>
 
