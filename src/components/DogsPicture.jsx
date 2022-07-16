@@ -3,7 +3,6 @@ import {ImageListItem} from '@mui/material';
 import Box from '@mui/material/Box';
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Context from '../context/Context';
-
 import { dogImages } from '../API';
 
 function DogsPicture() {

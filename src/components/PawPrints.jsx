@@ -1,10 +1,8 @@
 import React from 'react';
 import { gsap } from 'gsap';
-
 import Context from '../context/Context';
-
 import paw from '../images/paw.png';
-import { useTransition } from 'react';
+
 
 
 const PawPrints = () => {   
@@ -19,7 +17,7 @@ const PawPrints = () => {
        .to(children('.paw_6R'), { opacity: 1, duration: 3, runBackwards: true,  delay: 0 })
        .to(children('.paw_6L'), { opacity: 1, duration: 3, runBackwards: true,  delay: -2.7 }) 
        .to(children('.paw_5L'), { opacity: 1, duration: 3, runBackwards: true,  delay: -2.7 })   
-       .to(children('.paw_5R'), { opacity: 1, duration: 3, runBackwards: true, delay: -2.7 })
+       .to(children('.paw_5R'), { opacity: 1, duration: 3, runBackwards: true,  delay: -2.7 })
        .to(children('.paw_4R'), { opacity: 1, duration: 3, runBackwards: true,  delay: -2.7 })
        .to(children('.paw_4L'), { opacity: 1, duration: 3, runBackwards: true,  delay: -2.7 })
        .to(children('.paw_3L'), { opacity: 1, duration: 3, runBackwards: true,  delay: -2.7 }) 
@@ -42,15 +40,15 @@ const PawPrints = () => {
        <div className='containerPaw' ref={pawContainer}>
          <img className='paw_1L paws' src={paw} alt='paw'/>
          <img className='paw_2R paws' src={paw} alt='paw'/>
-         <img className='paw_3L paws'src={paw} alt='paw'/>
-         <img className='paw_4R paws'src={paw} alt='paw'/>
-         <img className='paw_5L paws'src={paw} alt='paw'/>
-         <img className='paw_6R paws'src={paw} alt='paw'/>
+         <img className='paw_3L paws' src={paw} alt='paw'/>
+         <img className='paw_4R paws' src={paw} alt='paw'/>
+         <img className='paw_5L paws' src={paw} alt='paw'/>
+         <img className='paw_6R paws' src={paw} alt='paw'/>
          <img className='paw_6L paws' src={paw} alt='paw'/>
-         <img className='paw_5R paws'src={paw} alt='paw'/>
-         <img className='paw_4L paws'src={paw} alt='paw'/>
-         <img className='paw_3R paws'src={paw} alt='paw'/>
-         <img className='paw_2L paws'src={paw} alt='paw'/>
+         <img className='paw_5R paws' src={paw} alt='paw'/>
+         <img className='paw_4L paws' src={paw} alt='paw'/>
+         <img className='paw_3R paws' src={paw} alt='paw'/>
+         <img className='paw_2L paws' src={paw} alt='paw'/>
          <img className='paw_1R paws' src={paw} alt='paw'/>
        </div>      
     )

@@ -4,7 +4,6 @@ import PetsIcon from '@mui/icons-material/Pets';
 import { styled } from '@mui/material/styles';
 import Context from "../context/Context";
 import { allBreeds } from "../API";
-
 import arrayBreeds from "../helper/arrayBreeds";
 
 const MuiMenuItem = styled(MenuItem)(({ theme }) => ({
