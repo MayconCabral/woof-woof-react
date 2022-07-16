@@ -4,7 +4,7 @@
 
 ![lading-page](https://github.com/MayconCabral/woof-woof-react/blob/main/src/images/woofReact.gif)
 
-<h3><em>"Woof Woof react" is a very simple aplication that consumes one of the most amazing API about dogs. Yes! I am talking about <a href="https://dog.ceo/dog-api/">Dog Api</a>, the internet's biggest collection of open source dog pictures.<em></h3>
+<h3><em>"Woof Woof react" is a very simple aplication that consumes one of the most amazing API about dogs. Yes! I am talking about <a href="https://dog.ceo/dog-api/">Dog Api</a>, the internet's biggest collection of open source dog pictures.</em></h3>
 
 <br />
 <br />
