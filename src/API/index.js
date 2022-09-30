@@ -1,15 +1,23 @@
-async function allBreeds() {
-    const data = await fetch('https://dog.ceo/api/breeds/list/all');
-    const breeds = await data.json();
-    
-    return breeds.message;
+import axios from "axios";
+
+async function allBreeds() {    
+    try {
+        const {data} = await axios.get('https://dog.ceo/api/breeds/list/all');        
+        return data.message;
+
+    } catch (error) {
+        console.log(error);
+    }
 }
 
-async function dogImages(breed) {
-    const data = await fetch(`https://dog.ceo/api/breed/${breed}/images`);
-    const imgs = await data.json();
+async function dogImages(breed) {   
+    try {
+        const {data} = await axios.get(`https://dog.ceo/api/breed/${breed}/images`);        
+        return data.message;
 
-    return imgs.message;
+    } catch (error) {
+        console.log(error);
+    }
 }
 
 export {

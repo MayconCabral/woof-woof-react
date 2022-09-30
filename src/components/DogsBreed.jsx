@@ -16,10 +16,11 @@ function DogsBreed(){
    const { setSelectBreed, selectBreed } = useContext(Context);
    const [breedsObj, setBreedsObj] = useState({});
 
-   useEffect(() => {
+  useEffect(() => {
     allBreeds().then((data) => {
-        setBreedsObj(data); 
-    })         
+        setBreedsObj(data)
+    })
+   
   }, [])
 
     const handleClick = ({target}) => {

@@ -1,7 +1,7 @@
 {
   "name": "woof-woof-react",
   "version": "0.1.0",
-  "https":"https://mayconcabral.github.io/woof-woof-react/",
+  "https": "https://mayconcabral.github.io/woof-woof-react/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
@@ -12,6 +12,7 @@
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
     "gsap": "^3.10.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
