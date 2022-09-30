@@ -27,7 +27,7 @@ function DogsBreed(){
         setSelectBreed(target.value)
     }
 
-    const breeds = arrayBreeds(breedsObj).sort();
+    const breeds = arrayBreeds(breedsObj).sort();    
     
     return (        
         <header className="absolute">
