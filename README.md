@@ -20,6 +20,7 @@ The following technologies were used in this aplication:
 ![MUI ](https://img.shields.io/badge/MUI-%230081CB.svg?logo=material-ui&logoColor=white&style=for-the-badge)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?logo=react&logoColor=%2361DAFB&style=for-the-badge)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?logo=git&logoColor=white&style=for-the-badge)
+![Jest](https://img.shields.io/badge/Jest-C21325.svg?style=for-the-badge&logo=Jest&logoColor=white)
 
 <br />
 
