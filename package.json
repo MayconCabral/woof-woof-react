@@ -9,7 +9,6 @@
     "@mui/icons-material": "^5.8.4",
     "@mui/material": "^5.8.2",
     "@react-hook/window-size": "^3.0.7",
-    "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
@@ -47,6 +46,7 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
     "gh-pages": "^4.0.0"
   }
 }
