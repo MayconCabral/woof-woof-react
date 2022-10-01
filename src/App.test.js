@@ -16,7 +16,7 @@ describe('Check the elements on the page', () => {
     expect(input).toBeInTheDocument()
   });
 
-  test('there is a word written "Breed" on the input select', () => {
+  test('there is a word written "Breed" in the input select', () => {
     app()
     const label = screen.getByLabelText('Breed')
    
